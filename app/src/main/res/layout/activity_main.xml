@@ -17,7 +17,8 @@
         android:layout_height="wrap_content"
         android:text="0"
         android:inputType="none"
-        android:textIsSelectable="true"/>
+        android:textIsSelectable="true"
+        android:id="@+id/conteo_edit_text"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,11 +27,13 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/contar"/>
+            android:text="@string/contar"
+            android:id="@+id/contador_button"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/reiniciar"/>
+            android:text="@string/reiniciar"
+            android:id="@+id/reiniciar_button"/>
     </LinearLayout>
 
 </LinearLayout>
